@@ -1,7 +1,12 @@
 Unity3D-1
+<<<<<<< HEAD
 ---------
 
 1. **游戏对象（GameObjects）** 和 **资源（Assets)** 的区别与联系。
+=======
+[博客地址](https://segmentfault.com/a/1190000013969195)
+1. **游戏对象（GameObjects）** 和 **资源（Assets** 的区别与联系。
+>>>>>>> dc322aacdd22e4183c2776bafa1a96333d833c90
 >* **游戏对象**：直接出现在游戏的场景中，是资源整合的具体表现，对象通过层次结构来组织，通过整体-部分的关系构成层次结构。
 >* **资源**：资源通过文件夹的形式组织，包含常用的图像，视频，脚本文件，预制文件等等，可以被一个或者多个对象使用。
 ---
@@ -103,7 +108,7 @@ public class NewBehaviourScript : MonoBehaviour {
 * 描述下图 table 对象（实体）的属性、table 的 Transform 的属性、 table 的部件：
 ![NO](https://pmlpml.github.io/unity3d-learning/images/ch02/ch02-homework.png)
 > UML图
-![Answer](http://img2.ph.126.net/nzosFSJdNQSS0ovxTsYnXA==/6632701639979540690.jpg)
+![Answer](https://segmentfault.com/img/remote/1460000013969259?w=690&h=520)
 ---
 5. 整理相关学习资料，编写简单代码验证以下技术的实现:
 >* 查找对象：
