@@ -45,7 +45,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 113
+  controlID: 50
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -210,7 +210,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 74
+  controlID: 51
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -234,7 +234,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 221}
   m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
-  controlID: 50
+  controlID: 52
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -255,13 +255,13 @@ MonoBehaviour:
     height: 624
   m_MinSize: {x: 204, y: 221}
   m_MaxSize: {x: 4004, y: 4021}
-  m_ActualView: {fileID: 18}
+  m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
   - {fileID: 18}
   - {fileID: 13}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -360,19 +360,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Script
+    - Assets/Materia
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Script
+  - Assets/Materia
   m_LastFoldersGridSize: -1
   m_LastProjectPath: "E:\\Unity3D\\Unity3D-Learning\\\u7B2C\u4E8C\u6B21\u4F5C\u4E1A\\\u6A21\u62DF\u592A\u9633\u7CFB"
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: fe270000
-    m_LastClickedID: 10238
-    m_ExpandedIDs: 000000008227000000ca9a3bffffff7f
+    m_SelectedIDs: fa270000
+    m_LastClickedID: 10234
+    m_ExpandedIDs: 000000008827000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -400,7 +400,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000082270000
+    m_ExpandedIDs: 0000000088270000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -520,7 +520,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 86fbffff000000005c2800008e280000
+    m_ExpandedIDs: 9efbffff00000000be280000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -565,20 +565,20 @@ MonoBehaviour:
   m_DepthBufferBits: 32
   m_Pos:
     serializedVersion: 2
-    x: 408
-    y: 100
-    width: 1078
-    height: 593
+    x: 403
+    y: 92
+    width: 1087
+    height: 603
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 0
-  lastFramingTime: 4308.706303659828
+  lastFramingTime: 1947.287426144189
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -31.32074, y: -25.300186, z: -26.731323}
+    m_Target: {x: 0, y: -20, z: 400}
     speed: 2
-    m_Value: {x: -31.32074, y: -25.300186, z: -26.731323}
+    m_Value: {x: 0, y: -20, z: 400}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -602,13 +602,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.05129286, y: 0.003591259, z: -0.00018596619, w: -0.99867755}
+    m_Target: {x: -0.12150458, y: 0.012504391, z: -0.0015326275, w: -0.9925098}
     speed: 2
-    m_Value: {x: -0.05129284, y: 0.0035912576, z: -0.00018596611, w: -0.9986772}
+    m_Value: {x: -0.12150472, y: 0.012504405, z: -0.0015326292, w: -0.9925109}
   m_Size:
-    m_Target: 529.92633
+    m_Target: 1739.8744
     speed: 2
-    m_Value: 529.92633
+    m_Value: 1739.8744
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -677,7 +677,7 @@ MonoBehaviour:
       y: 17
       width: 1087
       height: 586
-    m_Scale: {x: 1.1255091, y: 1.1255087}
+    m_Scale: {x: 1.1255685, y: 1.1255087}
     m_Translation: {x: 514.59753, y: 288.10516}
     m_MarginLeft: 0
     m_MarginRight: 0
@@ -685,9 +685,9 @@ MonoBehaviour:
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -457.2131
+      x: -457.189
       y: -255.97774
-      width: 965.78516
+      width: 965.7342
       height: 520.6535
     m_MinimalGUI: 1
   m_defaultScale: 1

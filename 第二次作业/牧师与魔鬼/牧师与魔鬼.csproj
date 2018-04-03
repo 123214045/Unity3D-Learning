@@ -245,7 +245,6 @@
     <Compile Include="Assets\Script\CoastController.cs" />
     <Compile Include="Assets\Script\FirstController.cs" />
     <Compile Include="Assets\Script\GameObjects.cs" />
-    <Compile Include="Assets\Script\GameObjectsControl.cs" />
     <Compile Include="Assets\Script\InteracteGUI.cs" />
     <Compile Include="Assets\Script\Interfaces.cs" />
     <Compile Include="Assets\Script\Move.cs" />
