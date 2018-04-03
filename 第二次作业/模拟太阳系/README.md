@@ -1,7 +1,7 @@
 Unity3D - 模拟太阳系
 ===
 >[博客地址](https://segmentfault.com/a/1190000014158774)
-[模拟太阳系动态图（如不能显示请点进去访问）](http://photo.163.com/liux276/#m=2&aid=316890016&pid=9904150707)
+![模拟太阳系动态图（如不能显示请点进去访问,或者前往博客）](http://img0.ph.126.net/1cTlW0X5BvD2qa9NswfZsg==/6597644811240043059.gif)
 ---
 首先是制作太阳系中的每个行星，基本上都是先创建Sophere，然后改变起始位置，添加材质和贴图，这里就不赘述了。
 ![模拟太阳系 - 1](http://img2.ph.126.net/6h-k86zP-1VbuMM8R6oxuQ==/6597273176309746922.png)
@@ -78,5 +78,5 @@ public class Moon_Move : MonoBehaviour {
 }
 ```
 最后发现太阳系太过孤单，太空怎么能少了星海作为背景？添加一个背景板，贴上星空的图片作为背景美化一下：
-![星空背景](http://img0.ph.126.net/n8aG_g6tHv0CdQlKpPdT5A==/6597344644565938944.png)
+![星空背景 图片无法访问请前往博客或者点击图片](http://img0.ph.126.net/n8aG_g6tHv0CdQlKpPdT5A==/6597344644565938944.png)
 到这里就大致完成了。
