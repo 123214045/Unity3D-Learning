@@ -8,11 +8,11 @@ Unty3D - 2 牧师与魔鬼
 * 当有一侧岸的魔鬼数多余牧师数时（包括船上的魔鬼和牧师），魔鬼就会失去控制，吃掉牧师（如果这一侧没有牧师则不会失败），游戏失败。
 * 当所有游戏角色都到达对岸时，游戏胜利。
 # 游戏截图：
-![开始游戏](http://img2.ph.126.net/LNFMSYMytwpSiEAoThJD9A==/6631702183912138196.png)
+![开始游戏](http://img0.ph.126.net/dnQ5z0PJ3hsCYUOBW8CQ-g==/6631702183912138197.png)
 
-![游戏失败](http://img0.ph.126.net/JfNMSh5kiMNl8y4VpdCCFA==/1603844417397644100.png)
+![游戏失败](http://img2.ph.126.net/dwuHFrXWqPKq8Pc9-Uravg==/2000724134559637484.png)
 
-![游戏胜利](http://img1.ph.126.net/dFntHm5xApiskpEFD0akdQ==/6597971366193496429.png)
+![游戏胜利](http://img0.ph.126.net/QRrquZDn4n2tRWWxHq-kpw==/6597330350914396545.png)
 
 ****
 # 游戏组织结构：
