@@ -3,7 +3,7 @@ Unty3D - 2 牧师与魔鬼 - 动作分离版
 >* [博客传送门](https://segmentfault.com/a/1190000014283425)
 # 游戏场景截图：
 ![游戏场景 - 1](http://img1.ph.126.net/p8CQCd6j5Z4JaAP82aR_Vw==/6632675251700494000.png)
-![游戏场景 - 2](http://img0.ph.126.net/xl_bJ8JbrlBa3JJDwz5zEQ==/6597979062774900426.png)
+![游戏场景 - 2](http://img0.ph.126.net/ojUxnwe7OufRgvh85q6f5A==/1273674269635900173.png)
 ---
 # 游戏对象使用小结：
 > 1. 常见游戏对象有空对象，摄像机，光线，天空盒，地形，3D对象，声音，UI系统和粒子系统以及特效。
