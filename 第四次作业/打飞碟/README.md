@@ -1,7 +1,7 @@
 # 打飞碟小游戏
 这次的主要任务是写一个打飞碟的小游戏，熟悉一下之前的MVC模式和动作分离，可以复用一部分前面的代码。
 > [博客传送门](https://segmentfault.com/a/1190000014431406)
-> ![演示视频](http://v.youku.com/v_show/id_XMzU0NDg4ODk2OA==.html?spm=a2h3j.8428770.3416059.1)
+> [演示视频](http://v.youku.com/v_show/id_XMzU0NDg4ODk2OA==.html?spm=a2h3j.8428770.3416059.1)
 # 游戏场景截图
 这次建立了一个简单的天空盒和地面。场记依旧加载到空对象GameObject上，并且控制飞碟加载。
 ![打飞碟 - 1](http://img2.ph.126.net/SeJVVPeWhpt0mH1QrqzJJg==/6597277574356277600.png)
