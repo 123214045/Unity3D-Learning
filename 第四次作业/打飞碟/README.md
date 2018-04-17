@@ -3,7 +3,7 @@
 [博客传送门](https://segmentfault.com/a/1190000014431406)
 # 游戏场景截图
 这次建立了一个简单的天空盒和地面。场记依旧加载到空对象GameObject上，并且控制飞碟加载。
-![打飞碟 - 1](http://img2.ph.126.net/u-dSDfnzYkgsIUskHAVu8w==/6631604327377143074.png)
+![打飞碟 - 1](http://img2.ph.126.net/SeJVVPeWhpt0mH1QrqzJJg==/6597277574356277600.png)
 ![打飞碟 - 2](http://img2.ph.126.net/u-dSDfnzYkgsIUskHAVu8w==/6631604327377143074.png)
 # 代码组织结构
 ![代码组织结构](http://img1.ph.126.net/TxC10VGkUL5oS6ewzmaFog==/1941614389450441264.png)
