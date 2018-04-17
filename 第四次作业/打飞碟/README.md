@@ -1,5 +1,6 @@
 # 打飞碟小游戏
 这次的主要任务是写一个打飞碟的小游戏，熟悉一下之前的MVC模式和动作分离，可以复用一部分前面的代码。
+[博客传送门](https://segmentfault.com/a/1190000014431406)
 # 游戏场景截图
 这次建立了一个简单的天空盒和地面。场记依旧加载到空对象GameObject上，并且控制飞碟加载。
 ![打飞碟 - 1](http://img2.ph.126.net/SeJVVPeWhpt0mH1QrqzJJg==/6597277574356277600.png)
@@ -353,47 +354,47 @@
 5. 用户界面GUI，这次GUI还算简单，主要加了显示分数，时间，以及轮次的面板。
     ```cs
         public class InterfaceGUI : MonoBehaviour {
-        UserAction UserActionController;
-        public GameObject t;
-        bool ss = false;
-        float S;
-        float Now;
-        int round = 1;
-        // Use this for initialization
-        void Start () {
-            UserActionController = SSDirector.getInstance().currentScenceController as UserAction;
-            S = Time.time;
-        }
-
-        private void OnGUI()
-        {
-            if(!ss) S = Time.time;
-            GUI.Label(new Rect(1000, 50, 500, 500),"Score: " + UserActionController.GetScore().ToString() + "  Time:  " + ((int)(Time.time - S)).ToString() + "  Round:  " + round );
-            if (!ss && GUI.Button(new Rect(Screen.width / 2 - 30, Screen.height / 2 - 30, 100, 50), "Start"))
-            {
+            UserAction UserActionController;
+            public GameObject t;
+            bool ss = false;
+            float S;
+            float Now;
+            int round = 1;
+            // Use this for initialization
+            void Start () {
+                UserActionController = SSDirector.getInstance().currentScenceController as UserAction;
                 S = Time.time;
-                ss = true;
-                UserActionController.Restart();
             }
-            if (ss)
+
+            private void OnGUI()
             {
-                round = UserActionController.GetRound();
-                if (Input.GetButtonDown("Fire1"))
+                if(!ss) S = Time.time;
+                GUI.Label(new Rect(1000, 50, 500, 500),"Score: " + UserActionController.GetScore().ToString() + "  Time:  " + ((int)(Time.time - S)).ToString() + "  Round:  " + round );
+                if (!ss && GUI.Button(new Rect(Screen.width / 2 - 30, Screen.height / 2 - 30, 100, 50), "Start"))
                 {
-
-                    Vector3 pos = Input.mousePosition;
-                    UserActionController.Hit(pos);
-
+                    S = Time.time;
+                    ss = true;
+                    UserActionController.Restart();
                 }
-                if (round > 3)
+                if (ss)
                 {
-                    round = 3;
-                    if (UserActionController.RoundStop())
+                    round = UserActionController.GetRound();
+                    if (Input.GetButtonDown("Fire1"))
                     {
-                        ss = false;
+
+                        Vector3 pos = Input.mousePosition;
+                        UserActionController.Hit(pos);
+
+                    }
+                    if (round > 3)
+                    {
+                        round = 3;
+                        if (UserActionController.RoundStop())
+                        {
+                            ss = false;
+                        }
                     }
                 }
             }
         }
-    }
     ```
