@@ -3,7 +3,7 @@
 [博客传送门](https://segmentfault.com/a/1190000014431406)
 # 游戏场景截图
 这次建立了一个简单的天空盒和地面。场记依旧加载到空对象GameObject上，并且控制飞碟加载。
-![打飞碟 - 1](http://img2.ph.126.net/SeJVVPeWhpt0mH1QrqzJJg==/6597277574356277600.png)
+![打飞碟 - 1](http://img2.ph.126.net/u-dSDfnzYkgsIUskHAVu8w==/6631604327377143074.png)
 ![打飞碟 - 2](http://img2.ph.126.net/u-dSDfnzYkgsIUskHAVu8w==/6631604327377143074.png)
 # 代码组织结构
 ![代码组织结构](http://img1.ph.126.net/TxC10VGkUL5oS6ewzmaFog==/1941614389450441264.png)
@@ -18,7 +18,7 @@
         }
     ```
     * DiskFactory类：Disk的道具工厂，减少游戏对象的销毁次数，复用游戏对象，且屏蔽创建和销毁的业务逻辑，使程序易于扩展。具体在这个代码中，DiskFactory还负责在生产Disk时随机指定起始位置，方向，速度，颜色。
-    ![Disk Factory](http://img0.ph.126.net/FVXrSXX_WL_xFuzOs9SXRA==/6631536157656308532.png)
+    ![Disk Factory](http://img2.ph.126.net/o9mTA3_dBbpaTIWsZxXbEg==/6631736268772536788.png)
     ```cs
         public class DiskFactory { //开始时继承了MonoBehaviour后来发现不继承也可以
         public GameObject diskPrefab;
