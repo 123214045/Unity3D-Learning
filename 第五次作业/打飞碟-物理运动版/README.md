@@ -5,13 +5,13 @@
 > 主要场景和上次是一样的，主要是在场记中添加了一个旋转，场景中的空游戏对象GameObject添加的场记多了一个选项来选择是否使用物理引擎。
 
 ![物理引擎选择](http://img0.ph.126.net/eDbZOlBAzP5ElijuLB0jcQ==/6597355639682249370.png)
-![打飞碟-1](http://img2.ph.126.net/SeJVVPeWhpt0mH1QrqzJJg==/6597277574356277600.png)
+![打飞碟-1](https://segmentfault.com/img/remote/1460000014431409?w=750&h=421)
 ![打飞碟-2](http://img2.ph.126.net/u-dSDfnzYkgsIUskHAVu8w==/6631604327377143074.png)
 ---
 ## 游戏组织结构
 > 这次按照Adapter模式重写了飞碟的控制逻辑，其中RoundController其实就是场记FirstSceneController。上一次我是通过CCActionManager的实例来调用使飞碟运动的方法，这次将方法分离，使用接口IActionManager来发射飞碟，场记与具体运动控制器并不直接连接。
 
-![新设计](http://img0.ph.126.net/V1lalQFmlNct2hpKjbC9YA==/1273674269635919391.png)
+![新设计](https://segmentfault.com/img/remote/1460000014558765)
 ![文件组织结构](http://img2.ph.126.net/z1omYx2f7Ap-ifVghEebrQ==/2598014035059538271.png)
 ---
 ## 代码组织结构
