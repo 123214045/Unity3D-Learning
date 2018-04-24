@@ -11,7 +11,7 @@
 ## 游戏组织结构
 > 这次按照Adapter模式重写了飞碟的控制逻辑，其中RoundController其实就是场记FirstSceneController。上一次我是通过CCActionManager的实例来调用使飞碟运动的方法，这次将方法分离，使用接口IActionManager来发射飞碟，场记与具体运动控制器并不直接连接。
 
-![新设计](https://segmentfault.com/img/remote/1460000014558765)
+![新设计](https://segmentfault.com/img/remote/1460000014558764)
 ![文件组织结构](http://img2.ph.126.net/z1omYx2f7Ap-ifVghEebrQ==/2598014035059538271.png)
 ---
 ## 代码组织结构
