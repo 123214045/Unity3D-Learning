@@ -2,7 +2,7 @@
 > [博客地址](https://segmentfault.com/a/1190000014558760)
 > [视频地址](http://v.youku.com/v_show/id_XMzU2MTAwMjY4MA==.html?spm=a2h3j.8428770.3416059.1)
 ## 效果图
-> 主要场景和上次是一样的，主要是在场记中添加了一个旋转，场景中的空游戏对象GameObject添加的场记多了一个选项来选择是否使用物理引擎。
+> 主要场景和上次是一样的，主要是在场记中添加了一个选择，场景中的空游戏对象GameObject添加的场记多了一个选项来选择是否使用物理引擎。
 
 ![物理引擎选择](http://img0.ph.126.net/eDbZOlBAzP5ElijuLB0jcQ==/6597355639682249370.png)
 ![打飞碟-1](https://segmentfault.com/img/remote/1460000014431409?w=750&h=421)
