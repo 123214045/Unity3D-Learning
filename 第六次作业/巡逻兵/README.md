@@ -4,23 +4,23 @@
 ## 效果图
 > 场景和人物使用现有素材制作，人物动画控制器是自己制作。
 ![开始游戏](http://img1.ph.126.net/TjVQ2Fj_JwL29W8_enu-3A==/2594636335339039402.jpg)
-![游戏进行](http://img0.ph.126.net/KSf7gDhxteGaf3BZQHOPNw==/6632724729723784656.jpg)
+![游戏进行](https://segmentfault.com/img/remote/1460000014830175?w=1668&h=833)
 ---
 ## 游戏组织结构
 > 这次依然是使用了动作分离，MVC模式和工厂模式，以及新加了订阅与发表模式。
 
-![新设计](http://img1.ph.126.net/m6SBNgrFjprdEOX8wIrkxA==/1870401220342759114.jpg)
+![新设计](https://segmentfault.com/img/remote/1460000014830176?w=1140&h=657)
 ![文件组织结构](http://img2.ph.126.net/8vDIATfPQ0_dgpf4xaerzw==/1843379622578579909.jpg)
 ---
 ## 游戏对象制作
 1. 玩家对象，添加了刚体，胶囊碰撞器以及动画：
 ![玩家对象](http://img1.ph.126.net/gttiaAiLPt4SRQS8gLj3Tg==/2600828784826679158.jpg)
-![玩家动画控制器](http://img2.ph.126.net/lVWO6Rkp7Txn9VNtr57Lrg==/6597875708681939891.jpg)
+![玩家动画控制器](https://segmentfault.com/img/remote/1460000014830179?w=1662&h=839)
 2. 巡逻兵对象，添加了刚体，胶囊碰撞器，动画以及碰撞事件处理脚本：
-![巡逻兵对象](http://img0.ph.126.net/hBDa9c8NKycJSqZ5WXamFQ==/1384293935563331523.jpg)
+![巡逻兵对象](https://segmentfault.com/img/remote/1460000014830180?w=320&h=750)
 ![巡逻兵动画控制器](http://img1.ph.126.net/bjDiD0srLnEWC2b2tHvzKw==/1964695337540709088.jpg)
 3. 游戏地图由一系列组件制作：
-![游戏地图](http://img0.ph.126.net/dLqySUYzukDyz7RigOU1hA==/6597850419914498664.jpg)
+![游戏地图](https://segmentfault.com/img/remote/1460000014830182?w=750&h=294)
 ---
 ## 代码组织结构
 ### 接口,游戏场景控制器以及GUI
