@@ -1,5 +1,5 @@
 # 巡逻兵
-> [博客地址]()
+> [博客地址](https://segmentfault.com/a/1190000014830171)
 > [视频地址](http://v.youku.com/v_show/id_XMzYwMDA3MzkyMA==.html?spm=a2h3j.8428770.3416059.1)
 ## 效果图
 > 场景和人物使用现有素材制作，人物动画控制器是自己制作。
