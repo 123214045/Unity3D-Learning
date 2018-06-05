@@ -25,8 +25,9 @@
 1. 首先是添加一个Canvas，命名为BackPack并且设置屏幕空间为摄像机，渲染摄像机为主摄像机。
     ![Canvas设置](https://segmentfault.com/img/bVbbT3a?w=2559&h=808)
 2. 然后建立背包中所有的格子。通过组件Grid LayOut Group实现自动布局，然后添加Image对象填充。
+    ![背包格子](https://segmentfault.com/img/bVbbT3g?w=328&h=396)
     ![背包格子效果](https://segmentfault.com/img/bVbbT3w?w=1627&h=787)
-3. 演示GIF中有一个背包和物品栏随鼠标移动的效果，所以仿照这种方法，建立一个脚本获取鼠标位置然后将Bag和Wear两个物品栏的朝向设为鼠标的方向。
+4. 演示GIF中有一个背包和物品栏随鼠标移动的效果，所以仿照这种方法，建立一个脚本获取鼠标位置然后将Bag和Wear两个物品栏的朝向设为鼠标的方向。
     ```cs
         public class FollowMouse : MonoBehaviour {
 
