@@ -15,7 +15,7 @@
 2. 背包系统中放置物品的格子和物品图片。
 3. 实现鼠标拖动物体调整背包。
 4. 简单的动画效果，如下列例子：
-![官方示例](https://ww3.sinaimg.cn/large/6177e8b1gw1f42sxsw6drg20z80i9npm.gif)
+![官方示例](https://segmentfault.com/img/remote/1460000015191142)
 #### 实现效果
 >[实现效果视频]()
 
