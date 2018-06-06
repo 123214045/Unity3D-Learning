@@ -17,7 +17,7 @@
 4. 简单的动画效果，如下列例子：
 ![官方示例](https://segmentfault.com/img/remote/1460000015191142)
 #### 实现效果
->[实现效果视频]()
+>[实现效果视频](https://www.bilibili.com/video/av24432170/)
 
 >[博客地址](https://segmentfault.com/a/1190000015191139)
 ---
