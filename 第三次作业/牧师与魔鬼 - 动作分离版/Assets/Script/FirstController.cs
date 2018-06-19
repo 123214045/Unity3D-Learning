@@ -146,12 +146,12 @@ public class FirstController : MonoBehaviour, ISceneController, UserAction
 
     public void Restart()
     {
-        boat.reset();
         fromCoast.reset();
         toCoast.reset();
         foreach (GameObjects gameobject in GameObjects)
         {
             gameobject.reset();
         }
+        boat.reset();
     }
 }
